@@ -4,7 +4,23 @@
 body{
     font-family: 'Comfortaa' ,sans-serif;
 }
-
+.mybutton{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    text-decoration: none;
+    color:#2E56FF;
+    background-color: white;
+    font-family: 'Comfortaa', sans-serif;
+    border: 2px solid  #1e90ff;
+    border-radius: 6px;
+    border-color: #1e90ff;
+    transition: all 0.2s ease;
+    position: relative;
+    z-index:10;
+}
 .mybutton:hover{
     color:white;
     background-color: #2E56FF;
