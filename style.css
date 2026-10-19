@@ -28,6 +28,13 @@ body{
     cursor: pointer;
     transform: translateY(-5px);
 }
+.image{
+    transition: all 0.2s ease;
+}
+.image:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
 #skill{
     height:100px;
 }
