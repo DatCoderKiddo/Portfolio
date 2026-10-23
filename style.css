@@ -36,7 +36,18 @@ body{
 }
 #skill{
     height:100px;
+    transition: all 0.2s ease;
+}
+#skill:hover{
+    transform: translateY(-5px);
 }
 #mn{
     margin-left:150px;
+}
+.pb{
+    display: inline-flex;
+    transition: all 0.2s ease;
+}
+.pb:hover{
+    transform: translateY(-5px);
 }
